@@ -8,6 +8,6 @@ spec:
   selector:
     app: gitops-foundations 
   ports:
-    - port: 8080
-      targetPort: 8080
+    - port: 8008
+      targetPort: 8008
       nodePort: 30000
